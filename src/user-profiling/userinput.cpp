@@ -22,3 +22,11 @@ void UserProfile::intro() {
     cout << "- ";
     cin >> userabimon;
 }
+
+void UserProfile::sebutnamaabimon() {
+    cout << userabimon;
+}
+
+void UserProfile::sebutusername() {
+    cout << username;
+}

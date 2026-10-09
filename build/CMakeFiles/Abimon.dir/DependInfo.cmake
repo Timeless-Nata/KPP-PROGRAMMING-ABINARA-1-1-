@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/nata-negara/Abinara-1/Magang 1/src/UI/abimonstats.cpp" "/home/nata-negara/Abinara-1/Magang 1/build/CMakeFiles/Abimon.dir/src/UI/abimonstats.cpp.o"
   "/home/nata-negara/Abinara-1/Magang 1/src/UI/banner.cpp" "/home/nata-negara/Abinara-1/Magang 1/build/CMakeFiles/Abimon.dir/src/UI/banner.cpp.o"
   "/home/nata-negara/Abinara-1/Magang 1/src/UI/mainmenu.cpp" "/home/nata-negara/Abinara-1/Magang 1/build/CMakeFiles/Abimon.dir/src/UI/mainmenu.cpp.o"
   "/home/nata-negara/Abinara-1/Magang 1/src/main.cpp" "/home/nata-negara/Abinara-1/Magang 1/build/CMakeFiles/Abimon.dir/src/main.cpp.o"

@@ -123,6 +123,33 @@ Abimon/fast:
 	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/build
 .PHONY : Abimon/fast
 
+src/UI/abimonstats.o: src/UI/abimonstats.cpp.o
+
+.PHONY : src/UI/abimonstats.o
+
+# target to build an object file
+src/UI/abimonstats.cpp.o:
+	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/src/UI/abimonstats.cpp.o
+.PHONY : src/UI/abimonstats.cpp.o
+
+src/UI/abimonstats.i: src/UI/abimonstats.cpp.i
+
+.PHONY : src/UI/abimonstats.i
+
+# target to preprocess a source file
+src/UI/abimonstats.cpp.i:
+	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/src/UI/abimonstats.cpp.i
+.PHONY : src/UI/abimonstats.cpp.i
+
+src/UI/abimonstats.s: src/UI/abimonstats.cpp.s
+
+.PHONY : src/UI/abimonstats.s
+
+# target to generate assembly for a file
+src/UI/abimonstats.cpp.s:
+	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/src/UI/abimonstats.cpp.s
+.PHONY : src/UI/abimonstats.cpp.s
+
 src/UI/banner.o: src/UI/banner.cpp.o
 
 .PHONY : src/UI/banner.o
@@ -240,6 +267,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Abimon"
+	@echo "... src/UI/abimonstats.o"
+	@echo "... src/UI/abimonstats.i"
+	@echo "... src/UI/abimonstats.s"
 	@echo "... src/UI/banner.o"
 	@echo "... src/UI/banner.i"
 	@echo "... src/UI/banner.s"

@@ -1,6 +1,7 @@
 #pragma once
 
 void banner();
+void abimonstat();
 
 class mainmenu {
     private:

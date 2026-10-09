@@ -12,5 +12,6 @@ int main() {
 
     if (mainmenuvalue == 1)
         userprofile.intro();
+        abimonstat();
     return 0;
 }

@@ -7,4 +7,6 @@ class UserProfile {
         std::string userabimon;
     public:
         void intro();
+        void sebutnamaabimon();
+        void sebutusername();
 };

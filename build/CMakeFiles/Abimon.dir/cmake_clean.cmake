@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "Abimon"
   "Abimon.pdb"
+  "CMakeFiles/Abimon.dir/src/UI/abimonstats.cpp.o"
   "CMakeFiles/Abimon.dir/src/UI/banner.cpp.o"
   "CMakeFiles/Abimon.dir/src/UI/mainmenu.cpp.o"
   "CMakeFiles/Abimon.dir/src/main.cpp.o"
