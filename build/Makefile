@@ -123,32 +123,59 @@ Abimon/fast:
 	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/build
 .PHONY : Abimon/fast
 
-src/banner.o: src/banner.cpp.o
+src/UI/banner.o: src/UI/banner.cpp.o
 
-.PHONY : src/banner.o
+.PHONY : src/UI/banner.o
 
 # target to build an object file
-src/banner.cpp.o:
-	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/src/banner.cpp.o
-.PHONY : src/banner.cpp.o
+src/UI/banner.cpp.o:
+	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/src/UI/banner.cpp.o
+.PHONY : src/UI/banner.cpp.o
 
-src/banner.i: src/banner.cpp.i
+src/UI/banner.i: src/UI/banner.cpp.i
 
-.PHONY : src/banner.i
+.PHONY : src/UI/banner.i
 
 # target to preprocess a source file
-src/banner.cpp.i:
-	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/src/banner.cpp.i
-.PHONY : src/banner.cpp.i
+src/UI/banner.cpp.i:
+	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/src/UI/banner.cpp.i
+.PHONY : src/UI/banner.cpp.i
 
-src/banner.s: src/banner.cpp.s
+src/UI/banner.s: src/UI/banner.cpp.s
 
-.PHONY : src/banner.s
+.PHONY : src/UI/banner.s
 
 # target to generate assembly for a file
-src/banner.cpp.s:
-	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/src/banner.cpp.s
-.PHONY : src/banner.cpp.s
+src/UI/banner.cpp.s:
+	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/src/UI/banner.cpp.s
+.PHONY : src/UI/banner.cpp.s
+
+src/UI/mainmenu.o: src/UI/mainmenu.cpp.o
+
+.PHONY : src/UI/mainmenu.o
+
+# target to build an object file
+src/UI/mainmenu.cpp.o:
+	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/src/UI/mainmenu.cpp.o
+.PHONY : src/UI/mainmenu.cpp.o
+
+src/UI/mainmenu.i: src/UI/mainmenu.cpp.i
+
+.PHONY : src/UI/mainmenu.i
+
+# target to preprocess a source file
+src/UI/mainmenu.cpp.i:
+	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/src/UI/mainmenu.cpp.i
+.PHONY : src/UI/mainmenu.cpp.i
+
+src/UI/mainmenu.s: src/UI/mainmenu.cpp.s
+
+.PHONY : src/UI/mainmenu.s
+
+# target to generate assembly for a file
+src/UI/mainmenu.cpp.s:
+	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/src/UI/mainmenu.cpp.s
+.PHONY : src/UI/mainmenu.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -177,33 +204,6 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/mainmenu.o: src/mainmenu.cpp.o
-
-.PHONY : src/mainmenu.o
-
-# target to build an object file
-src/mainmenu.cpp.o:
-	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/src/mainmenu.cpp.o
-.PHONY : src/mainmenu.cpp.o
-
-src/mainmenu.i: src/mainmenu.cpp.i
-
-.PHONY : src/mainmenu.i
-
-# target to preprocess a source file
-src/mainmenu.cpp.i:
-	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/src/mainmenu.cpp.i
-.PHONY : src/mainmenu.cpp.i
-
-src/mainmenu.s: src/mainmenu.cpp.s
-
-.PHONY : src/mainmenu.s
-
-# target to generate assembly for a file
-src/mainmenu.cpp.s:
-	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/src/mainmenu.cpp.s
-.PHONY : src/mainmenu.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -213,15 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Abimon"
-	@echo "... src/banner.o"
-	@echo "... src/banner.i"
-	@echo "... src/banner.s"
+	@echo "... src/UI/banner.o"
+	@echo "... src/UI/banner.i"
+	@echo "... src/UI/banner.s"
+	@echo "... src/UI/mainmenu.o"
+	@echo "... src/UI/mainmenu.i"
+	@echo "... src/UI/mainmenu.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/mainmenu.o"
-	@echo "... src/mainmenu.i"
-	@echo "... src/mainmenu.s"
 .PHONY : help
 
 

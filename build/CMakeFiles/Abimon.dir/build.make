@@ -70,44 +70,44 @@ CMakeFiles/Abimon.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Abimon.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nata-negara/Abinara-1/Magang 1/src/main.cpp" -o CMakeFiles/Abimon.dir/src/main.cpp.s
 
-CMakeFiles/Abimon.dir/src/banner.cpp.o: CMakeFiles/Abimon.dir/flags.make
-CMakeFiles/Abimon.dir/src/banner.cpp.o: ../src/banner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nata-negara/Abinara-1/Magang 1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Abimon.dir/src/banner.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Abimon.dir/src/banner.cpp.o -c "/home/nata-negara/Abinara-1/Magang 1/src/banner.cpp"
+CMakeFiles/Abimon.dir/src/UI/banner.cpp.o: CMakeFiles/Abimon.dir/flags.make
+CMakeFiles/Abimon.dir/src/UI/banner.cpp.o: ../src/UI/banner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nata-negara/Abinara-1/Magang 1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Abimon.dir/src/UI/banner.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Abimon.dir/src/UI/banner.cpp.o -c "/home/nata-negara/Abinara-1/Magang 1/src/UI/banner.cpp"
 
-CMakeFiles/Abimon.dir/src/banner.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Abimon.dir/src/banner.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nata-negara/Abinara-1/Magang 1/src/banner.cpp" > CMakeFiles/Abimon.dir/src/banner.cpp.i
+CMakeFiles/Abimon.dir/src/UI/banner.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Abimon.dir/src/UI/banner.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nata-negara/Abinara-1/Magang 1/src/UI/banner.cpp" > CMakeFiles/Abimon.dir/src/UI/banner.cpp.i
 
-CMakeFiles/Abimon.dir/src/banner.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Abimon.dir/src/banner.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nata-negara/Abinara-1/Magang 1/src/banner.cpp" -o CMakeFiles/Abimon.dir/src/banner.cpp.s
+CMakeFiles/Abimon.dir/src/UI/banner.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Abimon.dir/src/UI/banner.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nata-negara/Abinara-1/Magang 1/src/UI/banner.cpp" -o CMakeFiles/Abimon.dir/src/UI/banner.cpp.s
 
-CMakeFiles/Abimon.dir/src/mainmenu.cpp.o: CMakeFiles/Abimon.dir/flags.make
-CMakeFiles/Abimon.dir/src/mainmenu.cpp.o: ../src/mainmenu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nata-negara/Abinara-1/Magang 1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Abimon.dir/src/mainmenu.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Abimon.dir/src/mainmenu.cpp.o -c "/home/nata-negara/Abinara-1/Magang 1/src/mainmenu.cpp"
+CMakeFiles/Abimon.dir/src/UI/mainmenu.cpp.o: CMakeFiles/Abimon.dir/flags.make
+CMakeFiles/Abimon.dir/src/UI/mainmenu.cpp.o: ../src/UI/mainmenu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nata-negara/Abinara-1/Magang 1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Abimon.dir/src/UI/mainmenu.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Abimon.dir/src/UI/mainmenu.cpp.o -c "/home/nata-negara/Abinara-1/Magang 1/src/UI/mainmenu.cpp"
 
-CMakeFiles/Abimon.dir/src/mainmenu.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Abimon.dir/src/mainmenu.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nata-negara/Abinara-1/Magang 1/src/mainmenu.cpp" > CMakeFiles/Abimon.dir/src/mainmenu.cpp.i
+CMakeFiles/Abimon.dir/src/UI/mainmenu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Abimon.dir/src/UI/mainmenu.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nata-negara/Abinara-1/Magang 1/src/UI/mainmenu.cpp" > CMakeFiles/Abimon.dir/src/UI/mainmenu.cpp.i
 
-CMakeFiles/Abimon.dir/src/mainmenu.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Abimon.dir/src/mainmenu.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nata-negara/Abinara-1/Magang 1/src/mainmenu.cpp" -o CMakeFiles/Abimon.dir/src/mainmenu.cpp.s
+CMakeFiles/Abimon.dir/src/UI/mainmenu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Abimon.dir/src/UI/mainmenu.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nata-negara/Abinara-1/Magang 1/src/UI/mainmenu.cpp" -o CMakeFiles/Abimon.dir/src/UI/mainmenu.cpp.s
 
 # Object files for target Abimon
 Abimon_OBJECTS = \
 "CMakeFiles/Abimon.dir/src/main.cpp.o" \
-"CMakeFiles/Abimon.dir/src/banner.cpp.o" \
-"CMakeFiles/Abimon.dir/src/mainmenu.cpp.o"
+"CMakeFiles/Abimon.dir/src/UI/banner.cpp.o" \
+"CMakeFiles/Abimon.dir/src/UI/mainmenu.cpp.o"
 
 # External object files for target Abimon
 Abimon_EXTERNAL_OBJECTS =
 
 Abimon: CMakeFiles/Abimon.dir/src/main.cpp.o
-Abimon: CMakeFiles/Abimon.dir/src/banner.cpp.o
-Abimon: CMakeFiles/Abimon.dir/src/mainmenu.cpp.o
+Abimon: CMakeFiles/Abimon.dir/src/UI/banner.cpp.o
+Abimon: CMakeFiles/Abimon.dir/src/UI/mainmenu.cpp.o
 Abimon: CMakeFiles/Abimon.dir/build.make
 Abimon: CMakeFiles/Abimon.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/nata-negara/Abinara-1/Magang 1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Abimon"
