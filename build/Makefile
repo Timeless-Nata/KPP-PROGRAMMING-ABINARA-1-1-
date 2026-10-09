@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = "/home/nata-negara/Abinara-1/Magang 1"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/nata-negara/Abinara-1/Magang 1/bin"
+CMAKE_BINARY_DIR = "/home/nata-negara/Abinara-1/Magang 1/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nata-negara/Abinara-1/Magang 1/bin/CMakeFiles" "/home/nata-negara/Abinara-1/Magang 1/bin/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nata-negara/Abinara-1/Magang 1/build/CMakeFiles" "/home/nata-negara/Abinara-1/Magang 1/build/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nata-negara/Abinara-1/Magang 1/bin/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nata-negara/Abinara-1/Magang 1/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,86 @@ Abimon/fast:
 	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/build
 .PHONY : Abimon/fast
 
-main.o: main.cpp.o
+src/banner.o: src/banner.cpp.o
 
-.PHONY : main.o
+.PHONY : src/banner.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/banner.cpp.o:
+	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/src/banner.cpp.o
+.PHONY : src/banner.cpp.o
 
-main.i: main.cpp.i
+src/banner.i: src/banner.cpp.i
 
-.PHONY : main.i
+.PHONY : src/banner.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/banner.cpp.i:
+	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/src/banner.cpp.i
+.PHONY : src/banner.cpp.i
 
-main.s: main.cpp.s
+src/banner.s: src/banner.cpp.s
 
-.PHONY : main.s
+.PHONY : src/banner.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/banner.cpp.s:
+	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/src/banner.cpp.s
+.PHONY : src/banner.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
+src/mainmenu.o: src/mainmenu.cpp.o
+
+.PHONY : src/mainmenu.o
+
+# target to build an object file
+src/mainmenu.cpp.o:
+	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/src/mainmenu.cpp.o
+.PHONY : src/mainmenu.cpp.o
+
+src/mainmenu.i: src/mainmenu.cpp.i
+
+.PHONY : src/mainmenu.i
+
+# target to preprocess a source file
+src/mainmenu.cpp.i:
+	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/src/mainmenu.cpp.i
+.PHONY : src/mainmenu.cpp.i
+
+src/mainmenu.s: src/mainmenu.cpp.s
+
+.PHONY : src/mainmenu.s
+
+# target to generate assembly for a file
+src/mainmenu.cpp.s:
+	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/src/mainmenu.cpp.s
+.PHONY : src/mainmenu.cpp.s
 
 # Help Target
 help:
@@ -159,9 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Abimon"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/banner.o"
+	@echo "... src/banner.i"
+	@echo "... src/banner.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/mainmenu.o"
+	@echo "... src/mainmenu.i"
+	@echo "... src/mainmenu.s"
 .PHONY : help
 
 

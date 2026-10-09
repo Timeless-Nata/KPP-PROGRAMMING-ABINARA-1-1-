@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/nata-negara/Abinara-1/Magang 1/bin/main.cpp
+/home/nata-negara/Abinara-1/Magang 1/src/main.cpp
 iostream
 -
+ui.h
+/home/nata-negara/Abinara-1/Magang 1/src/ui.h
+
+/home/nata-negara/Abinara-1/Magang 1/src/ui.h
 

@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/nata-negara/Abinara-1/Magang 1")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/nata-negara/Abinara-1/Magang 1/bin")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/nata-negara/Abinara-1/Magang 1/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

@@ -1,14 +1,9 @@
 #include <iostream>
+#include "ui.h"
 using namespace std;
 
-int main() {
+void banner() {
     cout << "============================================\n";
     cout << "                   ABIMON                   \n";
     cout << "=========[Abinara's Simple Pokemon]=========\n";
-    cout << "\n";
-    cout << "--- Welcome, adventurer! ---";
-    cout << "1. Play game";
-    cout << "2. Exit";
-
-    return 0;
 }

@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/nata-negara/Abinara-1/Magang 1/bin/main.cpp" "/home/nata-negara/Abinara-1/Magang 1/bin/CMakeFiles/Abimon.dir/main.cpp.o"
+  "/home/nata-negara/Abinara-1/Magang 1/src/banner.cpp" "/home/nata-negara/Abinara-1/Magang 1/build/CMakeFiles/Abimon.dir/src/banner.cpp.o"
+  "/home/nata-negara/Abinara-1/Magang 1/src/main.cpp" "/home/nata-negara/Abinara-1/Magang 1/build/CMakeFiles/Abimon.dir/src/main.cpp.o"
+  "/home/nata-negara/Abinara-1/Magang 1/src/mainmenu.cpp" "/home/nata-negara/Abinara-1/Magang 1/build/CMakeFiles/Abimon.dir/src/mainmenu.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
