@@ -1,15 +1,16 @@
 #include <iostream>
 #include "ui.h"
+#include "profile.h"
 using namespace std;
 
 int main() {
     mainmenu MainMenu;
+    UserProfile userprofile;
     banner();
     MainMenu.mainmenuUI();
     int mainmenuvalue = MainMenu.getmainmenuvalue();
 
-    if (mainmenuvalue == 1) {
-
-    }
+    if (mainmenuvalue == 1)
+        userprofile.intro();
     return 0;
 }

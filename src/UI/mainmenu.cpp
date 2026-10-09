@@ -12,7 +12,7 @@ void mainmenu::mainmenuUI() {
     cin  >> main_menu;
 
     if(main_menu == 1) {
-        cout << "entering..";
+        cout << "entering..\n";
     }
     else if(main_menu == 2) {
         cout << "exiting..";
@@ -23,7 +23,7 @@ void mainmenu::mainmenuUI() {
             cin  >> main_menu;
         }
         if(main_menu == 1) {
-            cout << "entering..";
+            cout << "entering..\n";
         }
         else if(main_menu == 2) {
             cout << "exiting..";

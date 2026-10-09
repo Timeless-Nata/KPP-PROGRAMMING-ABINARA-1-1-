@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Abimon.dir/src/UI/banner.cpp.o"
   "CMakeFiles/Abimon.dir/src/UI/mainmenu.cpp.o"
   "CMakeFiles/Abimon.dir/src/main.cpp.o"
+  "CMakeFiles/Abimon.dir/src/user-profiling/userinput.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

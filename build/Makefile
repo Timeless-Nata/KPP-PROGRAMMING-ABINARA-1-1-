@@ -204,6 +204,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/user-profiling/userinput.o: src/user-profiling/userinput.cpp.o
+
+.PHONY : src/user-profiling/userinput.o
+
+# target to build an object file
+src/user-profiling/userinput.cpp.o:
+	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/src/user-profiling/userinput.cpp.o
+.PHONY : src/user-profiling/userinput.cpp.o
+
+src/user-profiling/userinput.i: src/user-profiling/userinput.cpp.i
+
+.PHONY : src/user-profiling/userinput.i
+
+# target to preprocess a source file
+src/user-profiling/userinput.cpp.i:
+	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/src/user-profiling/userinput.cpp.i
+.PHONY : src/user-profiling/userinput.cpp.i
+
+src/user-profiling/userinput.s: src/user-profiling/userinput.cpp.s
+
+.PHONY : src/user-profiling/userinput.s
+
+# target to generate assembly for a file
+src/user-profiling/userinput.cpp.s:
+	$(MAKE) -f CMakeFiles/Abimon.dir/build.make CMakeFiles/Abimon.dir/src/user-profiling/userinput.cpp.s
+.PHONY : src/user-profiling/userinput.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -222,6 +249,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/user-profiling/userinput.o"
+	@echo "... src/user-profiling/userinput.i"
+	@echo "... src/user-profiling/userinput.s"
 .PHONY : help
 
 

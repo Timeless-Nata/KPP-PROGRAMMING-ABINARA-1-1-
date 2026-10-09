@@ -7,5 +7,10 @@ CMakeFiles/Abimon.dir/src/UI/banner.cpp.o: ../src/UI/ui.h
 CMakeFiles/Abimon.dir/src/UI/mainmenu.cpp.o: ../src/UI/mainmenu.cpp
 CMakeFiles/Abimon.dir/src/UI/mainmenu.cpp.o: ../src/UI/ui.h
 
+CMakeFiles/Abimon.dir/src/main.cpp.o: ../src/UI/ui.h
+CMakeFiles/Abimon.dir/src/main.cpp.o: ../src/user-profiling/profile.h
 CMakeFiles/Abimon.dir/src/main.cpp.o: ../src/main.cpp
+
+CMakeFiles/Abimon.dir/src/user-profiling/userinput.cpp.o: ../src/user-profiling/profile.h
+CMakeFiles/Abimon.dir/src/user-profiling/userinput.cpp.o: ../src/user-profiling/userinput.cpp
 

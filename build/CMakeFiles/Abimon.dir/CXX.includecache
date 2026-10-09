@@ -6,3 +6,13 @@
 
 #IncludeRegexTransform: 
 
+/home/nata-negara/Abinara-1/Magang 1/src/user-profiling/profile.h
+string
+-
+
+/home/nata-negara/Abinara-1/Magang 1/src/user-profiling/userinput.cpp
+iostream
+-
+profile.h
+/home/nata-negara/Abinara-1/Magang 1/src/user-profiling/profile.h
+

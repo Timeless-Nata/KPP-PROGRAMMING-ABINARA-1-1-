@@ -8,4 +8,9 @@ CMakeFiles/Abimon.dir/src/UI/mainmenu.cpp.o
  /home/nata-negara/Abinara-1/Magang 1/src/UI/mainmenu.cpp
  /home/nata-negara/Abinara-1/Magang 1/src/UI/ui.h
 CMakeFiles/Abimon.dir/src/main.cpp.o
+ ../src/UI/ui.h
+ ../src/user-profiling/profile.h
  /home/nata-negara/Abinara-1/Magang 1/src/main.cpp
+CMakeFiles/Abimon.dir/src/user-profiling/userinput.cpp.o
+ /home/nata-negara/Abinara-1/Magang 1/src/user-profiling/profile.h
+ /home/nata-negara/Abinara-1/Magang 1/src/user-profiling/userinput.cpp

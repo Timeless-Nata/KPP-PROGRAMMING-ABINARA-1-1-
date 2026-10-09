@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/nata-negara/Abinara-1/Magang 1/src/UI" 
+CXX_INCLUDES = -I"/home/nata-negara/Abinara-1/Magang 1/src/UI" -I"/home/nata-negara/Abinara-1/Magang 1/src/user-profiling" 
 
